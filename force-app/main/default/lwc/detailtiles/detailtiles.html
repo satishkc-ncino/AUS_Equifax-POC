@@ -1,0 +1,111 @@
+<template>
+    <lightning-card title="Summary">
+        <div class="slds-grid slds-gutters slds-grid_align-space">    
+            <div class="slds-col slds-col slds-size_1-of-4">
+                <lightning-tile type="box" style="width:14rem; height:14rem">
+                   <div class="slds-box slds-align_absolute-center progress">
+                    <div class="slds-list_horizontal">
+                        <dl class="slds-list_vertical-space-medium">
+                            <br>
+                            <dt class="slds-item_label inprogress" style="font-size:16px;font-weight:bold;color:midnightblue;text-align:justify">Progress</dt>
+                            <dd class="slds-item_detail inpcount" style="font-size:60px;color:midnightblue;text-align:center">7</dd>
+                            <br>
+                            <span class="slds-m-right_x-small slds-icon_container slds-align_absolute-center container">
+                                <button class="slds-button slds-button_icon-container" onclick={handlestop}>
+                                <lightning-icon icon-name="utility:ban" class="slds-align_absolute-center stopicon" variant="error"></lightning-icon> 
+                                </button>
+                            </span>
+                            <span class="slds-m-right_x-small slds-icon_container slds-align_absolute-center container">
+                                <button class="slds-button slds-button_icon-container" onclick={handlerefresh}>
+                                <lightning-icon icon-name="utility:rotate" class="slds-align_absolute-center refreshicon" variant="success"></lightning-icon>
+                                </button>
+                            </span>
+                        </dl>
+                        <dl class="slds-list_vertical-space slds-m-left_small">                            
+                            <br>
+                            <dd class="slds-item_detail slds-m-bottom_large input1">
+                                <lightning-input label="Refresh (Seconds)" style="font-size:14px; color:midnightblue; width: 70px; height: 50px" type="number" value="30"></lightning-input> 
+                            </dd>
+                            <br>
+                            <br>
+                            <dd class="slds-item_detail input2">
+                                <lightning-input label="Days Back" style="font-size:14px; color:midnightblue; width: 70px; height: 50px" type="number" value="2"></lightning-input> 
+                            </dd>    
+                        </dl>
+                    </div>
+                   </div>
+                </lightning-tile>
+            </div>
+            <div class="slds-col slds-col slds-size_1-of-4">
+                <lightning-tile type="box" style="width:14rem; height:14rem">
+                   <div class="slds-box slds-align_absolute-center success">
+                    <div class="slds-list_horizontal">
+                        <dl class="slds-list_vertical-space-medium">
+                            <br>
+                            <dt class="slds-item_label inprogress" style="font-size:16px;font-weight:bold;color:midnightblue;text-align:justify">Success</dt>
+                            <dd class="slds-item_detail inpcount" style="font-size:60px;color:midnightblue;text-align:center">12</dd>
+                            <br>
+                            <span class="slds-m-right_x-small slds-icon_container slds-align_absolute-center container">
+                                <button class="slds-button slds-button_icon-container" onclick={handlestop}>
+                                <lightning-icon icon-name="utility:ban" class="slds-align_absolute-center stopicon" variant="error"></lightning-icon> 
+                                </button>
+                            </span>
+                            <span class="slds-m-right_x-small slds-icon_container slds-align_absolute-center container">
+                                <button class="slds-button slds-button_icon-container" onclick={handlerefresh}>
+                                <lightning-icon icon-name="utility:rotate" class="slds-align_absolute-center refreshicon" variant="success"></lightning-icon>
+                                </button>
+                            </span>
+                        </dl>
+                        <dl class="slds-list_vertical-space slds-m-left_small">                            
+                            <br>
+                            <dd class="slds-item_detail slds-m-bottom_large input1">
+                                <lightning-input label="Refresh (Seconds)" style="font-size:14px; color:midnightblue; width: 70px; height: 50px" type="number" value="30"></lightning-input> 
+                            </dd>
+                            <br>
+                            <br>
+                            <dd class="slds-item_detail input2">
+                                <lightning-input label="Days Back" style="font-size:14px; color:midnightblue; width: 70px; height: 50px" type="number" value="2"></lightning-input> 
+                            </dd>    
+                        </dl>
+                    </div>
+                   </div>
+                </lightning-tile>
+            </div>
+            <div class="slds-col slds-col slds-size_1-of-4">
+                <lightning-tile type="box" style="width:14rem; height:14rem">
+                   <div class="slds-box slds-align_absolute-center error">
+                    <div class="slds-list_horizontal">
+                        <dl class="slds-list_vertical-space-medium">
+                            <br>
+                            <dt class="slds-item_label inprogress" style="font-size:16px;font-weight:bold;color:midnightblue;text-align:justify">Error</dt>
+                            <dd class="slds-item_detail inpcount" style="font-size:60px;color:midnightblue;text-align:center">3</dd>
+                            <br>
+                            <span class="slds-m-right_x-small slds-icon_container slds-align_absolute-center container">
+                                <button class="slds-button slds-button_icon-container" onclick={handlestop}>
+                                <lightning-icon icon-name="utility:ban" class="slds-align_absolute-center stopicon" variant="error"></lightning-icon> 
+                                </button>
+                            </span>
+                            <span class="slds-m-right_x-small slds-icon_container slds-align_absolute-center container">
+                                <button class="slds-button slds-button_icon-container" onclick={handlerefresh}>
+                                <lightning-icon icon-name="utility:rotate" class="slds-align_absolute-center refreshicon" variant="success"></lightning-icon>
+                                </button>
+                            </span>
+                        </dl>
+                        <dl class="slds-list_vertical-space slds-m-left_small">                            
+                            <br>
+                            <dd class="slds-item_detail slds-m-bottom_large input1">
+                                <lightning-input label="Refresh (Seconds)" style="font-size:14px; color:midnightblue; width: 70px; height: 50px" type="number" value="30"></lightning-input> 
+                            </dd>
+                            <br>
+                            <br>
+                            <dd class="slds-item_detail input2">
+                                <lightning-input label="Days Back" style="font-size:14px; color:midnightblue; width: 70px; height: 50px" type="number" value="2"></lightning-input> 
+                            </dd>    
+                        </dl>
+                    </div>
+                   </div>
+                </lightning-tile>
+            </div>
+        </div>                        
+    </lightning-card>
+</template>

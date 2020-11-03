@@ -1,0 +1,175 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0052w000003B0GMAA0",
+      "createdByName": "Satish Chandrashekar",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "globalValueSetTranslations/Sensitivity_Analysis_Display_Type-fr.globalValueSetTranslation",
+      "fullName": "Sensitivity_Analysis_Display_Type-fr",
+      "id": "",
+      "lastModifiedById": "0052w000003B0GMAA0",
+      "lastModifiedByName": "Satish Chandrashekar",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "namespacePrefix": "",
+      "type": {
+        "$": {
+          "xsi:nil": "true"
+        }
+      }
+    },
+    {
+      "createdById": "0052w000003B0GMAA0",
+      "createdByName": "Satish Chandrashekar",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "globalValueSetTranslations/Collateral_Category_Type-es.globalValueSetTranslation",
+      "fullName": "Collateral_Category_Type-es",
+      "id": "",
+      "lastModifiedById": "0052w000003B0GMAA0",
+      "lastModifiedByName": "Satish Chandrashekar",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "namespacePrefix": "",
+      "type": {
+        "$": {
+          "xsi:nil": "true"
+        }
+      }
+    },
+    {
+      "createdById": "0052w000003B0GMAA0",
+      "createdByName": "Satish Chandrashekar",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "globalValueSetTranslations/US_States_Abbreviated-fr.globalValueSetTranslation",
+      "fullName": "US_States_Abbreviated-fr",
+      "id": "",
+      "lastModifiedById": "0052w000003B0GMAA0",
+      "lastModifiedByName": "Satish Chandrashekar",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "namespacePrefix": "",
+      "type": {
+        "$": {
+          "xsi:nil": "true"
+        }
+      }
+    },
+    {
+      "createdById": "0052w000003B0GMAA0",
+      "createdByName": "Satish Chandrashekar",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "globalValueSetTranslations/Requirement_Statuses-es.globalValueSetTranslation",
+      "fullName": "Requirement_Statuses-es",
+      "id": "",
+      "lastModifiedById": "0052w000003B0GMAA0",
+      "lastModifiedByName": "Satish Chandrashekar",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "namespacePrefix": "",
+      "type": {
+        "$": {
+          "xsi:nil": "true"
+        }
+      }
+    },
+    {
+      "createdById": "0052w000003B0GMAA0",
+      "createdByName": "Satish Chandrashekar",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "globalValueSetTranslations/Sensitivity_Analysis_Display_Type-es.globalValueSetTranslation",
+      "fullName": "Sensitivity_Analysis_Display_Type-es",
+      "id": "",
+      "lastModifiedById": "0052w000003B0GMAA0",
+      "lastModifiedByName": "Satish Chandrashekar",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "namespacePrefix": "",
+      "type": {
+        "$": {
+          "xsi:nil": "true"
+        }
+      }
+    },
+    {
+      "createdById": "0052w000003B0GMAA0",
+      "createdByName": "Satish Chandrashekar",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "globalValueSetTranslations/Requirement_Statuses-de.globalValueSetTranslation",
+      "fullName": "Requirement_Statuses-de",
+      "id": "",
+      "lastModifiedById": "0052w000003B0GMAA0",
+      "lastModifiedByName": "Satish Chandrashekar",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "namespacePrefix": "",
+      "type": {
+        "$": {
+          "xsi:nil": "true"
+        }
+      }
+    },
+    {
+      "createdById": "0052w000003B0GMAA0",
+      "createdByName": "Satish Chandrashekar",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "globalValueSetTranslations/Collateral_Category_Type-fr.globalValueSetTranslation",
+      "fullName": "Collateral_Category_Type-fr",
+      "id": "",
+      "lastModifiedById": "0052w000003B0GMAA0",
+      "lastModifiedByName": "Satish Chandrashekar",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "namespacePrefix": "",
+      "type": {
+        "$": {
+          "xsi:nil": "true"
+        }
+      }
+    },
+    {
+      "createdById": "0052w000003B0GMAA0",
+      "createdByName": "Satish Chandrashekar",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "globalValueSetTranslations/Requirement_Statuses-fr.globalValueSetTranslation",
+      "fullName": "Requirement_Statuses-fr",
+      "id": "",
+      "lastModifiedById": "0052w000003B0GMAA0",
+      "lastModifiedByName": "Satish Chandrashekar",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "namespacePrefix": "",
+      "type": {
+        "$": {
+          "xsi:nil": "true"
+        }
+      }
+    },
+    {
+      "createdById": "0052w000003B0GMAA0",
+      "createdByName": "Satish Chandrashekar",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "globalValueSetTranslations/Requirement_Statuses-it.globalValueSetTranslation",
+      "fullName": "Requirement_Statuses-it",
+      "id": "",
+      "lastModifiedById": "0052w000003B0GMAA0",
+      "lastModifiedByName": "Satish Chandrashekar",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "namespacePrefix": "",
+      "type": {
+        "$": {
+          "xsi:nil": "true"
+        }
+      }
+    },
+    {
+      "createdById": "0052w000003B0GMAA0",
+      "createdByName": "Satish Chandrashekar",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "globalValueSetTranslations/US_States_Abbreviated-es.globalValueSetTranslation",
+      "fullName": "US_States_Abbreviated-es",
+      "id": "",
+      "lastModifiedById": "0052w000003B0GMAA0",
+      "lastModifiedByName": "Satish Chandrashekar",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "namespacePrefix": "",
+      "type": {
+        "$": {
+          "xsi:nil": "true"
+        }
+      }
+    }
+  ]
+}

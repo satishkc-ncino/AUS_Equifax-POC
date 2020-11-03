@@ -1,0 +1,87 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0052w000003B0GMAA0",
+      "createdByName": "Satish Chandrashekar",
+      "createdDate": "2020-06-25T05:50:08.000Z",
+      "fileName": "globalValueSets/LLC_BI__Sensitivity_Analysis_Display_Type.globalValueSet",
+      "fullName": "LLC_BI__Sensitivity_Analysis_Display_Type",
+      "id": "0Nt2w000000HcylCAC",
+      "lastModifiedById": "0052w000003B0GMAA0",
+      "lastModifiedByName": "Satish Chandrashekar",
+      "lastModifiedDate": "2020-06-25T05:50:08.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "LLC_BI",
+      "type": "GlobalValueSet"
+    },
+    {
+      "createdById": "0052w000003B0GMAA0",
+      "createdByName": "Satish Chandrashekar",
+      "createdDate": "2020-06-25T05:50:08.000Z",
+      "fileName": "globalValueSets/LLC_BI__US_States_Abbreviated.globalValueSet",
+      "fullName": "LLC_BI__US_States_Abbreviated",
+      "id": "0Nt2w000000HcyjCAC",
+      "lastModifiedById": "0052w000003B0GMAA0",
+      "lastModifiedByName": "Satish Chandrashekar",
+      "lastModifiedDate": "2020-06-25T05:50:08.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "LLC_BI",
+      "type": "GlobalValueSet"
+    },
+    {
+      "createdById": "0052w0000044ITsAAM",
+      "createdByName": "Phill Drum",
+      "createdDate": "2020-06-25T05:50:08.000Z",
+      "fileName": "globalValueSets/UK_Counties.globalValueSet",
+      "fullName": "UK_Counties",
+      "id": "0Nt2w000000HcyoCAC",
+      "lastModifiedById": "0052w0000044ITsAAM",
+      "lastModifiedByName": "Phill Drum",
+      "lastModifiedDate": "2020-06-25T05:50:08.000Z",
+      "manageableState": "unmanaged",
+      "type": "GlobalValueSet"
+    },
+    {
+      "createdById": "0052w000003B0GMAA0",
+      "createdByName": "Satish Chandrashekar",
+      "createdDate": "2020-06-25T05:50:08.000Z",
+      "fileName": "globalValueSets/LLC_BI__Requirement_Statuses.globalValueSet",
+      "fullName": "LLC_BI__Requirement_Statuses",
+      "id": "0Nt2w000000HcynCAC",
+      "lastModifiedById": "0052w000003B0GMAA0",
+      "lastModifiedByName": "Satish Chandrashekar",
+      "lastModifiedDate": "2020-06-25T05:50:08.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "LLC_BI",
+      "type": "GlobalValueSet"
+    },
+    {
+      "createdById": "0052w000003B0GMAA0",
+      "createdByName": "Satish Chandrashekar",
+      "createdDate": "2020-06-25T05:50:08.000Z",
+      "fileName": "globalValueSets/LLC_BI__Collateral_Category_Type.globalValueSet",
+      "fullName": "LLC_BI__Collateral_Category_Type",
+      "id": "0Nt2w000000HcykCAC",
+      "lastModifiedById": "0052w000003B0GMAA0",
+      "lastModifiedByName": "Satish Chandrashekar",
+      "lastModifiedDate": "2020-06-25T05:50:08.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "LLC_BI",
+      "type": "GlobalValueSet"
+    },
+    {
+      "createdById": "0052w000003B0GMAA0",
+      "createdByName": "Satish Chandrashekar",
+      "createdDate": "2020-06-25T05:50:08.000Z",
+      "fileName": "globalValueSets/Countries.globalValueSet",
+      "fullName": "Countries",
+      "id": "0Nt2w000000HcymCAC",
+      "lastModifiedById": "0052w000003B0GMAA0",
+      "lastModifiedByName": "Satish Chandrashekar",
+      "lastModifiedDate": "2020-06-25T05:50:08.000Z",
+      "manageableState": "unmanaged",
+      "type": "GlobalValueSet"
+    }
+  ]
+}

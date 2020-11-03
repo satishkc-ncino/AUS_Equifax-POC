@@ -1,0 +1,80 @@
+<template>
+    <!--
+        <div class="slds-col slds-size_1-of-4" style="color:rgb(0, 0, 0);font-weight:bold;font-size:10px; text-align:left">
+           <lightning-card class="slds-text-heading_small slds-card_boundary"> 
+                <header class="slds-card__header slds-p-left_medium">
+                    <span class="slds-icon_container slds-icon-standard-work-queue">
+                        <svg class="slds-icon slds-icon--medium" adia-hidden="true">
+                            <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#work_queue"></use>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" id="work_queue">SCHEDULED</svg>
+                        </svg>
+                    </span> 
+                    <h2 class="slds-card__body" style="color:black;font-weight:bold;font-size:64px; text-align:center">25</h2>
+                    <lightning-icon icon-name="utility:settings" size="small" style="vertical-align:text-bottom;"></lightning-icon>
+                </header>
+            </lightning-card>
+        </div>
+    -->
+    <!--<div class="slds-col slds-size_1-of-5 slds-border_bottom slds-border_left slds-border_right slds-border_top">
+        <lightning-card class="my-card slds-card_boundary"> 
+            <div class="slds-p-around-none">    
+            <p class="title1"><lightning-icon icon-name="standard:work_queue" size="medium"></lightning-icon> 
+                <a style="font-size:16px;color:white;text-align:center">SCHDEULED</a>
+            </p>
+            <p class="body1" style="color:rgb(21, 18, 65);font-weight:bold;font-size:64px; text-align:center">25
+                <lightning-icon icon-name="utility:settings" size="small" style="vertical-align:text-bottom;"></lightning-icon>   
+            </p>
+            </div>
+        </lightning-card>
+    </div>-->
+    
+
+    <lightning-card title="SUMMARY" style="font-size:120;text-align:left;">  
+    <div class="slds-grid slds-gutters slds-grid_align-space">    
+        <div class="slds-col slds-col slds-size_1-of-5">
+            <lightning-tile type="sheduled">
+               <p class="title1"><lightning-icon slot="media" icon-name="standard:work_queue" size="medium"></lightning-icon>
+                <a style="font-size:16px;color:white;text-align:center">SCHDEULED</a>
+               </p>
+               <p class="body1" style="color:rgb(21, 18, 65);font-weight:bold;font-size:64px; text-align:center">25
+                <a><lightning-icon icon-name="utility:settings" size="small" style="vertical-align:text-bottom;"></lightning-icon>   
+                </a>
+                </p>
+            </lightning-tile>
+        </div>
+        <div class="slds-col slds-col slds-size_1-of-5">
+            <lightning-tile type="sheduled">
+               <p class="title2"><lightning-icon slot="media" icon-name="custom:custom20" size="medium"></lightning-icon>
+                <a style="font-size:16px;color:white;text-align:center">IN PROGESS</a>
+               </p>
+               <p class="body2" style="color:rgb(21, 18, 65);font-weight:bold;font-size:64px; text-align:center">12
+                <a><lightning-icon icon-name="utility:settings" size="small" style="vertical-align:text-bottom;"></lightning-icon>   
+                </a>
+                </p>
+            </lightning-tile>
+        </div>
+        <div class="slds-col slds-col slds-size_1-of-5">
+            <lightning-tile type="sheduled">
+               <p class="title3"><lightning-icon slot="media" icon-name="standard:task2" size="medium"></lightning-icon>
+                <a style="font-size:16px;color:white;text-align:center">SUCCESS</a>
+               </p>
+               <p class="body3" style="color:rgb(21, 18, 65);font-weight:bold;font-size:64px; text-align:center">8
+                <a><lightning-icon icon-name="utility:settings" size="small" style="vertical-align:text-bottom;"></lightning-icon>   
+                </a>
+                </p>
+            </lightning-tile>
+        </div>
+        <div class="slds-col slds-col slds-size_1-of-5">
+            <lightning-tile type="sheduled">
+               <p class="title4"><lightning-icon slot="media" icon-name="standard:first_non_empty" size="medium"></lightning-icon>
+                <a style="font-size:16px;color:white;text-align:center">ERRORS</a>
+               </p>
+               <p class="body4" style="color:rgb(21, 18, 65);font-weight:bold;font-size:64px; text-align:center">0
+                <a><lightning-icon icon-name="utility:settings" size="small" style="vertical-align:text-bottom;"></lightning-icon>   
+                </a>
+                </p>
+            </lightning-tile>
+        </div>
+    </div>    
+    </lightning-card>
+</template>
