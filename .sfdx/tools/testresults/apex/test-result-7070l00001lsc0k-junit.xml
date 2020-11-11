@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2020-11-05T16:44:22+11:00" hostname="https://bankr-5155--demofcsb.cloudforce.com" tests="505" failures="6"  errors="0"  time="370.9">
+        <properties>
+            <property name="outcome" value="Failed"/>
+            <property name="testsRan" value="505"/>
+            <property name="passing" value="499"/>
+            <property name="failing" value="6"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="99%"/>
+            <property name="failRate" value="1%"/>
+            <property name="testStartTime" value="Nov 5, 2020 4:44 PM"/>
+            <property name="testExecutionTime" value="370.9 s"/>
+            <property name="testTotalTime" value="323.3 s"/>
+            <property name="commandTime" value="59.72 s"/>
+            <property name="hostname" value="https://bankr-5155--demofcsb.cloudforce.com"/>
+            <property name="orgId" value="00D0l0000001PiREAU"/>
+            <property name="username" value="satishkc@skcncinodemo.com.demofcsb"/>
+            <property name="testRunId" value="7070l00001lsc0k"/>
+            <property name="userId" value="0052w000003B0GMAA0"/>
+        </properties>
+        <testcase name="shouldReturnDocumentModel_WhenGetDocumentModelCalled" classname="AddDocumentMapperTest" time="0.12">
+        </testcase>
+        <testcase name="shouldReturnContentVersionId" classname="AddDocumentPropertyExtractorTest" time="0.05">
+        </testcase>
+        <testcase name="shouldReturnDocumentCollectionId" classname="AddDocumentPropertyExtractorTest" time="0.01">
+        </testcase>
+        <testcase name="shouldReturnDocumentCollectionIndexId" classname="AddDocumentPropertyExtractorTest" time="0.01">
+        </testcase>
+        <testcase name="shouldReturnDocumentVersionId" classname="AddDocumentPropertyExtractorTest" time="0.01">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoCollectionId" classname="AddDocumentPropertyExtractorTest" time="0.03">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoCollectionIndexId" classname="AddDocumentPropertyExtractorTest" time="0.01">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoContentVersion" classname="AddDocumentPropertyExtractorTest" time="0.01">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoContentVersionId" classname="AddDocumentPropertyExtractorTest" time="0.02">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoDocCollectionProperties" classname="AddDocumentPropertyExtractorTest" time="0.01">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoDocumentCollectionIndex" classname="AddDocumentPropertyExtractorTest" time="0.01">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoDocumentVersionId" classname="AddDocumentPropertyExtractorTest" time="0.02">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoDocumentVersionProperties" classname="AddDocumentPropertyExtractorTest" time="0.02">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoFileName" classname="AddDocumentPropertyExtractorTest" time="0.08">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoFileType" classname="AddDocumentPropertyExtractorTest" time="0.02">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoPlaceholderId" classname="AddDocumentPropertyExtractorTest" time="0.02">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoVendorId" classname="AddDocumentPropertyExtractorTest" time="0.02">
+        </testcase>
+        <testcase name="shouldReturnFileName" classname="AddDocumentPropertyExtractorTest" time="0.01">
+        </testcase>
+        <testcase name="shouldReturnFileType" classname="AddDocumentPropertyExtractorTest" time="0.02">
+        </testcase>
+        <testcase name="shouldReturnPlaceholderId" classname="AddDocumentPropertyExtractorTest" time="0.02">
+        </testcase>
+        <testcase name="shouldReturnVendorId" classname="AddDocumentPropertyExtractorTest" time="0.01">
+        </testcase>
+        <testcase name="shouldNormalizeResponse" classname="AddDocumentResponseNormalizerTest" time="0.03">
+        </testcase>
+        <testcase name="shouldReturnException_whenBadResponse_emptyToken" classname="AddDocumentResponseNormalizerTest" time="0.02">
+        </testcase>
+        <testcase name="shouldReturnException_whenBadResponse_nullToken" classname="AddDocumentResponseNormalizerTest" time="0.02">
+        </testcase>
+        <testcase name="shouldCallProcess_whenPostSendSeam" classname="AddDocumentSendServiceTest" time="1.05">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoAPIKey" classname="AddDocumentSendServiceTest" time="4.36">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoEndPointURL" classname="AddDocumentSendServiceTest" time="0.57">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoHTTPRequest" classname="AddDocumentSendServiceTest" time="0.1">
+        </testcase>
+        <testcase name="shouldSetHttpRequest_WhenPreSendRequestCalled" classname="AddDocumentSendServiceTest" time="0.56">
+        </testcase>
+        <testcase name="shouldThrowException_whenPostSendSeam_emptyString" classname="AddDocumentSendServiceTest" time="0.02">
+        </testcase>
+        <testcase name="shouldThrowException_whenPostSendSeam_messageHasNoResponse" classname="AddDocumentSendServiceTest" time="0.02">
+        </testcase>
+        <testcase name="buildProcessedMap_wrapperMapPreservesValues" classname="AResponseNormalizerTest" time="0.03">
+        </testcase>
+        <testcase name="deserialize_malformedJSON_throwsExceptionWithDetails" classname="AResponseNormalizerTest" time="0.02">
+        </testcase>
+        <testcase name="deserialize_shouldAcceptWellFormedJSON" classname="AResponseNormalizerTest" time="0.02">
+        </testcase>
+        <testcase name="testChangePasswordController" classname="ChangePasswordControllerTest" time="0.04">
+        </testcase>
+        <testcase name="shouldResolveClassType" classname="ClassTypeProviderTest" time="0.03">
+        </testcase>
+        <testcase name="testCommunitiesLandingController" classname="CommunitiesLandingControllerTest" time="0.04">
+        </testcase>
+        <testcase name="testCommunitiesLoginController" classname="CommunitiesLoginControllerTest" time="0.03">
+        </testcase>
+        <testcase name="testCommunitiesSelfRegConfirmController" classname="CommunitiesSelfRegConfirmControllerTest" time="0.04">
+        </testcase>
+        <testcase name="testCommunitiesSelfRegController" classname="CommunitiesSelfRegControllerTest" time="0.04">
+        </testcase>
+        <testcase name="testConfigCreateCorsWhitelistOriginStep" classname="ConfigCreateCorsWhitelistOriginStepTest" time="0.14">
+        </testcase>
+        <testcase name="testSystemPropertiesUpdate" classname="ConfigOAuthUpdateSystemPropStepTest" time="0.3">
+        </testcase>
+        <testcase name="testConfigPortalUploadStep" classname="ConfigPortalUploadNamedCredentialsTest" time="0.07">
+        </testcase>
+        <testcase name="testConfigPortalUploadStep" classname="ConfigPortalUploadStepTest" time="0.47">
+        </testcase>
+        <testcase name="testRemoval" classname="ConfigRemoveLicenseStepTest" time="0.55">
+        </testcase>
+        <testcase name="testConfigUpdateDemoLoansAndRelationshipsStep" classname="ConfigUpdateDemoLoansAndRelTest" time="1.29">
+        </testcase>
+        <testcase name="testConfigUpdateRemoteSiteSettingsStep" classname="ConfigUpdateRemoteSiteSettingsStepTest" time="0.2">
+        </testcase>
+        <testcase name="testSystemPropertiesUpdate" classname="ConfigUpdateSystemPropertiesStepTest" time="0.68">
+        </testcase>
+        <testcase name="shouldReturnContentVersion" classname="ContentVersionSelectorTest" time="1.07">
+        </testcase>
+        <testcase name="shouldReturnNull_WhenInvalidId" classname="ContentVersionSelectorTest" time="0.03">
+        </testcase>
+        <testcase name="shouldReturnNull_WhenNullId" classname="ContentVersionSelectorTest" time="0.02">
+        </testcase>
+        <testcase name="runTest" classname="CopyAttachmentTriggerHandlerTest" time="6.91">
+        </testcase>
+        <testcase name="shouldReturnCreatePackageModel" classname="CreatePackageMapperTest" time="0.17">
+        </testcase>
+        <testcase name="shouldReturnAuthorizedSigners" classname="CreatePackagePropertyExtractorTest" time="0.08">
+        </testcase>
+        <testcase name="shouldReturnCollectionId" classname="CreatePackagePropertyExtractorTest" time="0.02">
+        </testcase>
+        <testcase name="shouldReturnDocumentCollectionName" classname="CreatePackagePropertyExtractorTest" time="0.02">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoAuthorizedSigners" classname="CreatePackagePropertyExtractorTest" time="0.02">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoCollectionId" classname="CreatePackagePropertyExtractorTest" time="0.03">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoDocumentCollection" classname="CreatePackagePropertyExtractorTest" time="0.02">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoDocumentCollectionName" classname="CreatePackagePropertyExtractorTest" time="0.03">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoSignerAuthEmail" classname="CreatePackagePropertyExtractorTest" time="0.01">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoSignerAuthFirstName" classname="CreatePackagePropertyExtractorTest" time="0.01">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoSignerAuthId" classname="CreatePackagePropertyExtractorTest" time="0.02">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoSignerAuthLastName" classname="CreatePackagePropertyExtractorTest" time="0.01">
+        </testcase>
+        <testcase name="shouldReturnSignerAuthEmail" classname="CreatePackagePropertyExtractorTest" time="0.01">
+        </testcase>
+        <testcase name="shouldReturnSignerAuthFirstName" classname="CreatePackagePropertyExtractorTest" time="0.01">
+        </testcase>
+        <testcase name="shouldReturnSignerAuthId" classname="CreatePackagePropertyExtractorTest" time="0.01">
+        </testcase>
+        <testcase name="shouldReturnSignerAuthLastName" classname="CreatePackagePropertyExtractorTest" time="0.01">
+        </testcase>
+        <testcase name="process_badResponse_emptyStringCollectionId" classname="CreatePackageResponseNormalizerTest" time="0.07">
+        </testcase>
+        <testcase name="process_badResponse_nullCollectionId" classname="CreatePackageResponseNormalizerTest" time="0.02">
+        </testcase>
+        <testcase name="process_clean" classname="CreatePackageResponseNormalizerTest" time="0.02">
+        </testcase>
+        <testcase name="shouldCallProcess_whenPostSendSeam" classname="CreatePackageSendServiceTest" time="0.99">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoAPIKey" classname="CreatePackageSendServiceTest" time="0.7">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoEndPointURL" classname="CreatePackageSendServiceTest" time="0.55">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoHTTPRequest" classname="CreatePackageSendServiceTest" time="0.58">
+        </testcase>
+        <testcase name="shouldSetHeaders_WhenPreSendRequest" classname="CreatePackageSendServiceTest" time="0.72">
+        </testcase>
+        <testcase name="shouldThrowException_whenPostSendSeam_emptyString" classname="CreatePackageSendServiceTest" time="0.09">
+        </testcase>
+        <testcase name="shouldThrowException_whenPostSendSeam_messageHasNoResponse" classname="CreatePackageSendServiceTest" time="0.03">
+        </testcase>
+        <testcase name="getcontactstest" classname="CreditControllerTest" time="1.04">
+            <failure message="System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [LastName]: [LastName]"><![CDATA[Class.TestDataFactory.createcon: line 54, column 1
+Class.CreditControllerTest.getcontactstest: line 14, column 1]]></failure>
+        </testcase>
+        <testcase name="testLoanController" classname="csaTestClaimSystemController" time="17.77">
+        </testcase>
+        <testcase name="testProductPackageController" classname="csaTestClaimSystemController" time="2.41">
+        </testcase>
+        <testcase name="testCheckInstall" classname="csaTestClaimSystemInstallerController" time="0.1">
+        </testcase>
+        <testcase name="testInstall" classname="csaTestClaimSystemInstallerController" time="0.08">
+        </testcase>
+        <testcase name="testUninstall" classname="csaTestClaimSystemInstallerController" time="0.46">
+        </testcase>
+        <testcase name="testGetFieldSetName" classname="csaTestClaimSystemUtilityController" time="0.15">
+        </testcase>
+        <testcase name="testGetName" classname="csaTestClaimSystemUtilityController" time="37.46">
+        </testcase>
+        <testcase name="testGetRoles" classname="csaTestClaimSystemUtilityController" time="0.1">
+        </testcase>
+        <testcase name="testGetUsers" classname="csaTestClaimSystemUtilityController" time="1.4">
+        </testcase>
+        <testcase name="testUpdateString" classname="csaTestClaimSystemUtilityController" time="2.15">
+        </testcase>
+        <testcase name="runTest" classname="csaTestConnectionTreeController" time="3.81">
+        </testcase>
+        <testcase name="testClaimLoans" classname="csaTestLoanClaimSystemController" time="6.71">
+        </testcase>
+        <testcase name="testGetFieldValueName" classname="csaTestLoanClaimSystemController" time="3.82">
+        </testcase>
+        <testcase name="testGetHeaders" classname="csaTestLoanClaimSystemController" time="0.08">
+        </testcase>
+        <testcase name="testGetLoans" classname="csaTestLoanClaimSystemController" time="2.81">
+        </testcase>
+        <testcase name="testGetRoles" classname="csaTestLoanClaimSystemController" time="0.07">
+        </testcase>
+        <testcase name="testGetUsers" classname="csaTestLoanClaimSystemController" time="0.92">
+        </testcase>
+        <testcase name="testClaimProductPackages" classname="csaTestPPClaimSystemController" time="24.37">
+        </testcase>
+        <testcase name="testGetFieldValueName" classname="csaTestPPClaimSystemController" time="5.71">
+        </testcase>
+        <testcase name="testGetHeaders" classname="csaTestPPClaimSystemController" time="0.07">
+        </testcase>
+        <testcase name="testGetProductPackages" classname="csaTestPPClaimSystemController" time="2.31">
+        </testcase>
+        <testcase name="testGetRoles" classname="csaTestPPClaimSystemController" time="0.07">
+        </testcase>
+        <testcase name="testGetUsers" classname="csaTestPPClaimSystemController" time="1">
+        </testcase>
+        <testcase name="coverGeneratedCodeCRUDOperations" classname="CSMetadataServiceTest" time="0.03">
+        </testcase>
+        <testcase name="coverGeneratedCodeFileBasedOperations1" classname="CSMetadataServiceTest" time="0.03">
+        </testcase>
+        <testcase name="coverGeneratedCodeFileBasedOperations2" classname="CSMetadataServiceTest" time="0.03">
+        </testcase>
+        <testcase name="coverGeneratedCodeTypes" classname="CSMetadataServiceTest" time="0.56">
+        </testcase>
+        <testcase name="elfMissingGetRecordsTest" classname="CSMetadataServiceTest" time="0.08">
+        </testcase>
+        <testcase name="elfMissingGetResultTest" classname="CSMetadataServiceTest" time="0.08">
+        </testcase>
+        <testcase name="testConvertDateTimeToDate" classname="CSUtilsTest" time="1.15">
+        </testcase>
+        <testcase name="testDayOfWeek" classname="CSUtilsTest" time="0.03">
+        </testcase>
+        <testcase name="testFieldValuesDifferent" classname="CSUtilsTest" time="0.04">
+        </testcase>
+        <testcase name="testFifteenCharacterId" classname="CSUtilsTest" time="0.03">
+        </testcase>
+        <testcase name="testFormatDate" classname="CSUtilsTest" time="0.03">
+        </testcase>
+        <testcase name="testFormatDateTimeUTC" classname="CSUtilsTest" time="0.03">
+        </testcase>
+        <testcase name="testGetFieldMetadata" classname="CSUtilsTest" time="0.16">
+        </testcase>
+        <testcase name="testGetObjectMetadata" classname="CSUtilsTest" time="0.05">
+        </testcase>
+        <testcase name="testGetObjectNameFromId" classname="CSUtilsTest" time="2.74">
+        </testcase>
+        <testcase name="testGetPicklistAsSelectOptions" classname="CSUtilsTest" time="0.05">
+        </testcase>
+        <testcase name="testGetPicklistDefaultValue" classname="CSUtilsTest" time="0.04">
+        </testcase>
+        <testcase name="testGetPicklistValues" classname="CSUtilsTest" time="0.04">
+        </testcase>
+        <testcase name="testGetRecordTypeId" classname="CSUtilsTest" time="0.04">
+        </testcase>
+        <testcase name="testGetTextFieldLength" classname="CSUtilsTest" time="0.04">
+        </testcase>
+        <testcase name="testIsNumeric" classname="CSUtilsTest" time="0.04">
+        </testcase>
+        <testcase name="testIsValidEmail" classname="CSUtilsTest" time="0.04">
+        </testcase>
+        <testcase name="testJoin" classname="CSUtilsTest" time="0.04">
+        </testcase>
+        <testcase name="testLeftPad" classname="CSUtilsTest" time="0.04">
+        </testcase>
+        <testcase name="testNullSafeEquals" classname="CSUtilsTest" time="0.04">
+        </testcase>
+        <testcase name="testQuote" classname="CSUtilsTest" time="0.04">
+        </testcase>
+        <testcase name="testRightPad" classname="CSUtilsTest" time="0.04">
+        </testcase>
+        <testcase name="testSelectStar" classname="CSUtilsTest" time="0.4">
+        </testcase>
+        <testcase name="testSendEmail" classname="CSUtilsTest" time="0.38">
+            <failure message="System.EmailException: SendEmail failed. First exception on row 0; first error: NO_MASS_MAIL_PERMISSION, Single email is not enabled for your organization or profile.: []"><![CDATA[Class.CSUtils.sendEmail: line 361, column 1
+Class.CSUtilsTest.testSendEmail: line 239, column 1]]></failure>
+        </testcase>
+        <testcase name="testShuffle" classname="CSUtilsTest" time="0.04">
+        </testcase>
+        <testcase name="testSingleQuote" classname="CSUtilsTest" time="0.04">
+        </testcase>
+        <testcase name="testToCharacterArray" classname="CSUtilsTest" time="0.03">
+        </testcase>
+        <testcase name="testRecordRetrieval" classname="DemoSetupControllerTest" time="0.59">
+        </testcase>
+        <testcase name="testRunningStep" classname="DemoSetupControllerTest" time="7.01">
+        </testcase>
+        <testcase name="shouldEncodeContent" classname="DocumentEncodeUtilityTest" time="0.04">
+        </testcase>
+        <testcase name="shouldEncodeContent_withTrailingSpace" classname="DocumentEncodeUtilityTest" time="0.01">
+        </testcase>
+        <testcase name="shouldEncodeDocument" classname="DocumentEncodeUtilityTest" time="0.01">
+        </testcase>
+        <testcase name="shouldEncodeString" classname="DocumentEncodeUtilityTest" time="0.01">
+        </testcase>
+        <testcase name="shouldReturnMimeType" classname="DocumentServiceTest" time="0.02">
+        </testcase>
+        <testcase name="shouldReturnMultipartFormData" classname="DocumentServiceTest" time="0.16">
+        </testcase>
+        <testcase name="shouldReturnPackageId" classname="DocumentServiceTest" time="0.04">
+        </testcase>
+        <testcase name="testLoadFeeSystemProperties" classname="FeeLoaderTest" time="0.21">
+        </testcase>
+        <testcase name="testForgotPasswordController" classname="ForgotPasswordControllerTest" time="0.06">
+        </testcase>
+        <testcase name="shouldReturnDocumentModel_WhenGetDocumentModelCalled" classname="GetDesignerUrlMapperTest" time="0.05">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoDocumentCollection" classname="GetDesignerUrlPropertyExtractorTest" time="0.04">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoProperties" classname="GetDesignerUrlPropertyExtractorTest" time="0.01">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoVendorId" classname="GetDesignerUrlPropertyExtractorTest" time="0.01">
+        </testcase>
+        <testcase name="shouldReturnVendorId" classname="GetDesignerUrlPropertyExtractorTest" time="0.01">
+        </testcase>
+        <testcase name="shouldNormalizeResponse" classname="GetDesignerUrlResponseNormalizerTest" time="0.96">
+        </testcase>
+        <testcase name="shouldReturnException_whenBadResponse_emptyToken" classname="GetDesignerUrlResponseNormalizerTest" time="0.03">
+        </testcase>
+        <testcase name="shouldReturnException_whenBadResponse_nullToken" classname="GetDesignerUrlResponseNormalizerTest" time="0.03">
+        </testcase>
+        <testcase name="shouldReturnException_whenDesignerSessionUrlNotConfigured" classname="GetDesignerUrlResponseNormalizerTest" time="0.59">
+        </testcase>
+        <testcase name="shouldCallProcess_whenPostSendSeam" classname="GetDesignerUrlSendServiceTest" time="0.83">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoAPIKey" classname="GetDesignerUrlSendServiceTest" time="0.56">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoEndPointURL" classname="GetDesignerUrlSendServiceTest" time="0.54">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoHTTPRequest" classname="GetDesignerUrlSendServiceTest" time="0.02">
+        </testcase>
+        <testcase name="shouldSetHttpRequest_WhenPreSendRequestCalled" classname="GetDesignerUrlSendServiceTest" time="0.66">
+        </testcase>
+        <testcase name="shouldThrowException_whenPostSendSeam_emptyString" classname="GetDesignerUrlSendServiceTest" time="0.02">
+        </testcase>
+        <testcase name="shouldThrowException_whenPostSendSeam_messageHasNoResponse" classname="GetDesignerUrlSendServiceTest" time="0.02">
+        </testcase>
+        <testcase name="testGroupCloneController" classname="GroupCloneWithRouteGroupsControllerTest" time="0.58">
+        </testcase>
+        <testcase name="myUnitTest" classname="LoanStageDurationTest" time="2.97">
+        </testcase>
+        <testcase name="testSave" classname="MyProfilePageControllerTest" time="1.04">
+            <failure message="System.DmlException: Insert failed. First exception on row 0; first error: CANNOT_EXECUTE_FLOW_TRIGGER, We can&#39;t save this record because the “Create Individual Credit Report” process failed. Give your Salesforce admin these details. &lt;b&gt;An unhandled fault has occurred in this flow&lt;/b&gt;&lt;br&gt;An unhandled fault has occurred while processing the flow.  Please contact your system administrator for more information.: []"><![CDATA[Class.MyProfilePageControllerTest.testSave: line 34, column 1]]></failure>
+        </testcase>
+        <testcase name="testSetContactFields" classname="MyProfilePageControllerTest" time="0.04">
+        </testcase>
+        <testcase name="shouldAddESignatureSysProperty" classname="OneSpanESignatureTest" time="1.28">
+        </testcase>
+        <testcase name="shouldAddProperties_OnActivatePlugin" classname="OneSpanESignatureTest" time="0.97">
+        </testcase>
+        <testcase name="shouldLocateAddDocumentSendService_WhenActivatePlugin" classname="OneSpanESignatureTest" time="0.87">
+        </testcase>
+        <testcase name="shouldLocateGetDesignerUrl_WhenActivatePlugin" classname="OneSpanESignatureTest" time="0.84">
+        </testcase>
+        <testcase name="shouldLocatePackageSendService_WhenActivatePlugin" classname="OneSpanESignatureTest" time="0.87">
+        </testcase>
+        <testcase name="shouldLocateRetrievePackageMetadata_WhenActivatePlugin" classname="OneSpanESignatureTest" time="0.82">
+        </testcase>
+        <testcase name="shouldNotLocateAddDocumentSendService_WhenDeactivatePlugin" classname="OneSpanESignatureTest" time="0.87">
+        </testcase>
+        <testcase name="shouldNotLocateGetDesignerUrlSendService_WhenDeactivatePlugin" classname="OneSpanESignatureTest" time="0.95">
+        </testcase>
+        <testcase name="shouldNotLocatePackageSendService_WhenDeactivatePlugin" classname="OneSpanESignatureTest" time="0.88">
+        </testcase>
+        <testcase name="shouldNotLocateRetrievePackageMetadataSendService_WhenDeactivatePlugin" classname="OneSpanESignatureTest" time="1.04">
+        </testcase>
+        <testcase name="shouldNotRemovePluginConfigs_WhenDeactivatePlugin" classname="OneSpanESignatureTest" time="0.93">
+        </testcase>
+        <testcase name="shouldUpdateESignatureSysProperty" classname="OneSpanESignatureTest" time="1.26">
+        </testcase>
+        <testcase name="ShouldReturnClassTypeProviderFromBean" classname="PackageDataInstallerTest" time="0.13">
+        </testcase>
+        <testcase name="shouldReturnPackageDataInstaller_onStart" classname="PackageDataInstallerTest" time="0.07">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoDocumentCollection" classname="PackageMetadataMessagePropExtractorTest" time="0.04">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoProperties" classname="PackageMetadataMessagePropExtractorTest" time="0.01">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoVendorId" classname="PackageMetadataMessagePropExtractorTest" time="0.01">
+        </testcase>
+        <testcase name="shouldReturnVendorId" classname="PackageMetadataMessagePropExtractorTest" time="0.01">
+        </testcase>
+        <testcase name="shouldReturnDocumentCollectionId" classname="PackageMetadataResponsePropExtractorTest" time="0.05">
+        </testcase>
+        <testcase name="shouldReturnDocumentCollectionIndexId" classname="PackageMetadataResponsePropExtractorTest" time="0.02">
+        </testcase>
+        <testcase name="shouldReturnDocuments" classname="PackageMetadataResponsePropExtractorTest" time="0.02">
+        </testcase>
+        <testcase name="shouldReturnDocumentVersionId" classname="PackageMetadataResponsePropExtractorTest" time="0.02">
+        </testcase>
+        <testcase name="shouldReturnEmptyString_whenNoDocumentCollectionId" classname="PackageMetadataResponsePropExtractorTest" time="0.01">
+        </testcase>
+        <testcase name="shouldReturnEmptyString_whenNoDocumentCollectionIndexId" classname="PackageMetadataResponsePropExtractorTest" time="0.02">
+        </testcase>
+        <testcase name="shouldReturnEmptyString_whenNoDocumentVersionId" classname="PackageMetadataResponsePropExtractorTest" time="0.02">
+        </testcase>
+        <testcase name="shouldReturnEmptyString_whenNoPlaceholderId" classname="PackageMetadataResponsePropExtractorTest" time="0.02">
+        </testcase>
+        <testcase name="shouldReturnFalse_whenNoSignatureTag" classname="PackageMetadataResponsePropExtractorTest" time="0.02">
+        </testcase>
+        <testcase name="shouldReturnPlaceholderId" classname="PackageMetadataResponsePropExtractorTest" time="0.02">
+        </testcase>
+        <testcase name="shouldReturnTrue_whenHasSignatureTag" classname="PackageMetadataResponsePropExtractorTest" time="0.02">
+        </testcase>
+        <testcase name="shouldCreateConfig" classname="PluginConfigurationServiceTest" time="0.03">
+        </testcase>
+        <testcase name="shouldReturnEmptyPluginConfig_WhenKeyNotExists" classname="PluginConfigurationServiceTest" time="0.47">
+        </testcase>
+        <testcase name="shouldReturnPluginConfig_WhenKeyExists" classname="PluginConfigurationServiceTest" time="0.59">
+        </testcase>
+        <testcase name="testProcessHomepageController" classname="ProcessOverviewTests" time="2.07">
+        </testcase>
+        <testcase name="shouldPackageMetaData" classname="RetrievePackageMetadataMapperTest" time="0.12">
+        </testcase>
+        <testcase name="shouldNormalizeResponse" classname="RetrievePackageMetadataNormalizerTest" time="0.18">
+        </testcase>
+        <testcase name="shouldCallProcess_whenPostSendSeam" classname="RetrievePackageMetadataSendServiceTest" time="1.03">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoAPIKey" classname="RetrievePackageMetadataSendServiceTest" time="0.75">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoEndPointURL" classname="RetrievePackageMetadataSendServiceTest" time="0.65">
+        </testcase>
+        <testcase name="shouldReturnException_WhenNoHTTPRequest" classname="RetrievePackageMetadataSendServiceTest" time="0.03">
+        </testcase>
+        <testcase name="shouldSetHttpRequest_WhenPreSendRequestCalled" classname="RetrievePackageMetadataSendServiceTest" time="0.61">
+        </testcase>
+        <testcase name="shouldThrowException_whenPostSendSeam_emptyString" classname="RetrievePackageMetadataSendServiceTest" time="0.03">
+        </testcase>
+        <testcase name="shouldThrowException_whenPostSendSeam_messageHasNoResponse" classname="RetrievePackageMetadataSendServiceTest" time="0.02">
+        </testcase>
+        <testcase name="testSiteLoginController" classname="SiteLoginControllerTest" time="0.04">
+        </testcase>
+        <testcase name="testRegistration" classname="SiteRegisterControllerTest" time="0.05">
+        </testcase>
+        <testcase name="testGetLogDetails" classname="TestAPrecisionLenderController" time="0.3">
+        </testcase>
+        <testcase name="testAuthSignerDocPrepTriggerHandlerDoesNotProcessInLoanScenario" classname="TestAuthSignerDocPrepTriggerHandler" time="3.65">
+        </testcase>
+        <testcase name="testAuthSignerDocPrepTriggerHandlerHandlesNoOwnershipStructureOnAS" classname="TestAuthSignerDocPrepTriggerHandler" time="2.06">
+        </testcase>
+        <testcase name="testAuthSignerDocPrepTriggerHandlerUpdatesCSICodeForValidASRole" classname="TestAuthSignerDocPrepTriggerHandler" time="2.12">
+        </testcase>
+        <testcase name="testControllerInitialization" classname="TestConfigurationController" time="0.09">
+        </testcase>
+        <testcase name="testControllerSave" classname="TestConfigurationController" time="0.77">
+        </testcase>
+        <testcase name="assertActivatePlugin" classname="TestCoreConfigAutoBook" time="0.87">
+        </testcase>
+        <testcase name="onActivate_onDeactivate" classname="TestCoreConfigAutoBook" time="1.3">
+        </testcase>
+        <testcase name="onActivate_twice" classname="TestCoreConfigAutoBook" time="0.89">
+        </testcase>
+        <testcase name="preSendRequest" classname="TestCoreConfigAutoBook" time="0.53">
+        </testcase>
+        <testcase name="preSendRequest_BookingConfigsDoNotExist" classname="TestCoreConfigAutoBook" time="0.43">
+        </testcase>
+        <testcase name="preSendRequest_testHierarchyEndPoints_DefaultsToGeneric" classname="TestCoreConfigAutoBook" time="0.55">
+        </testcase>
+        <testcase name="preSendRequest_testHierarchyEndPoints_DefaultsToNextLevel" classname="TestCoreConfigAutoBook" time="0.55">
+        </testcase>
+        <testcase name="preSendRequest_testMultipleEndPoints" classname="TestCoreConfigAutoBook" time="0.62">
+        </testcase>
+        <testcase name="preSendSeam" classname="TestCoreConfigAutoBook" time="0.69">
+        </testcase>
+        <testcase name="test_implementsCreate" classname="TestCreditPassReviewDecision" time="0.1">
+        </testcase>
+        <testcase name="test_implementsCreate" classname="TestCreditReportTypeDecision" time="0.08">
+        </testcase>
+        <testcase name="helpTextRiskTemplate" classname="TestCSA_AccountRiskRatingController" time="0.13">
+        </testcase>
+        <testcase name="isHelpTextRiskTemplate" classname="TestCSA_AccountRiskRatingController" time="0.03">
+        </testcase>
+        <testcase name="loanRiskRatingSaveSuccess" classname="TestCSA_AccountRiskRatingController" time="3.21">
+        </testcase>
+        <testcase name="sccountRiskRatingSaveError" classname="TestCSA_AccountRiskRatingController" time="0.02">
+        </testcase>
+        <testcase name="start" classname="TestCSA_AccountRiskRatingController" time="0.02">
+        </testcase>
+        <testcase name="finish" classname="TestCSA_ConfigValueConfigController" time="0.04">
+        </testcase>
+        <testcase name="install" classname="TestCSA_ConfigValueConfigController" time="0.83">
+        </testcase>
+        <testcase name="isInstalledFalse" classname="TestCSA_ConfigValueConfigController" time="0.02">
+        </testcase>
+        <testcase name="isInstalledTrue" classname="TestCSA_ConfigValueConfigController" time="0.07">
+        </testcase>
+        <testcase name="uninstall" classname="TestCSA_ConfigValueConfigController" time="0.02">
+        </testcase>
+        <testcase name="installExistingData" classname="TestCSA_ConfigValueDataInstaller" time="0.42">
+        </testcase>
+        <testcase name="installNoData" classname="TestCSA_ConfigValueDataInstaller" time="0.35">
+        </testcase>
+        <testcase name="uninstall" classname="TestCSA_ConfigValueDataInstaller" time="0.26">
+        </testcase>
+        <testcase name="back" classname="TestCSA_ConfigValueMgmtController" time="0.72">
+        </testcase>
+        <testcase name="configValueDelete" classname="TestCSA_ConfigValueMgmtController" time="1.27">
+        </testcase>
+        <testcase name="configValueEditFields" classname="TestCSA_ConfigValueMgmtController" time="0.28">
+        </testcase>
+        <testcase name="configValueEditIgnore" classname="TestCSA_ConfigValueMgmtController" time="0.22">
+        </testcase>
+        <testcase name="configValueEditNA" classname="TestCSA_ConfigValueMgmtController" time="0.25">
+        </testcase>
+        <testcase name="configValueEditRoles" classname="TestCSA_ConfigValueMgmtController" time="0.24">
+        </testcase>
+        <testcase name="configValueEditStage" classname="TestCSA_ConfigValueMgmtController" time="0.2">
+        </testcase>
+        <testcase name="configValueEditStatus" classname="TestCSA_ConfigValueMgmtController" time="0.33">
+        </testcase>
+        <testcase name="configValueNew" classname="TestCSA_ConfigValueMgmtController" time="0.09">
+        </testcase>
+        <testcase name="configValueSaveEdit1" classname="TestCSA_ConfigValueMgmtController" time="0.37">
+        </testcase>
+        <testcase name="configValueSaveEdit2" classname="TestCSA_ConfigValueMgmtController" time="0.33">
+        </testcase>
+        <testcase name="configValueSaveEdit3" classname="TestCSA_ConfigValueMgmtController" time="0.34">
+        </testcase>
+        <testcase name="configValueSaveNew" classname="TestCSA_ConfigValueMgmtController" time="0.17">
+        </testcase>
+        <testcase name="configValueSaveNewAgain" classname="TestCSA_ConfigValueMgmtController" time="0.18">
+        </testcase>
+        <testcase name="fieldPicklist" classname="TestCSA_ConfigValueMgmtController" time="0.72">
+        </testcase>
+        <testcase name="initialize" classname="TestCSA_ConfigValueMgmtController" time="0.01">
+        </testcase>
+        <testcase name="rolePicklist" classname="TestCSA_ConfigValueMgmtController" time="0.04">
+        </testcase>
+        <testcase name="stagePicklist" classname="TestCSA_ConfigValueMgmtController" time="0.02">
+        </testcase>
+        <testcase name="statusPicklist" classname="TestCSA_ConfigValueMgmtController" time="0.02">
+        </testcase>
+        <testcase name="NumConfigValues" classname="TestCSA_ConfigValueSummaryController" time="0.04">
+        </testcase>
+        <testcase name="NumKYConfigKeys" classname="TestCSA_ConfigValueSummaryController" time="0.02">
+        </testcase>
+        <testcase name="NumPTConfigKeys" classname="TestCSA_ConfigValueSummaryController" time="0.01">
+        </testcase>
+        <testcase name="back" classname="TestCSA_CreditMemoConfigController" time="0.11">
+        </testcase>
+        <testcase name="backSecondary" classname="TestCSA_CreditMemoConfigController" time="0.02">
+        </testcase>
+        <testcase name="buildLayouLink" classname="TestCSA_CreditMemoConfigController" time="0.7">
+        </testcase>
+        <testcase name="creditMemoDelete" classname="TestCSA_CreditMemoConfigController" time="2.03">
+        </testcase>
+        <testcase name="creditMemoEdit" classname="TestCSA_CreditMemoConfigController" time="0.14">
+        </testcase>
+        <testcase name="creditMemoEditSave" classname="TestCSA_CreditMemoConfigController" time="0.14">
+        </testcase>
+        <testcase name="creditMemoNew" classname="TestCSA_CreditMemoConfigController" time="0.03">
+        </testcase>
+        <testcase name="creditMemoSaveNewError" classname="TestCSA_CreditMemoConfigController" time="0.06">
+        </testcase>
+        <testcase name="creditMemoSaveNewSuccess" classname="TestCSA_CreditMemoConfigController" time="0.15">
+        </testcase>
+        <testcase name="creditMemoViewEdit" classname="TestCSA_CreditMemoConfigController" time="0.1">
+        </testcase>
+        <testcase name="initialize" classname="TestCSA_CreditMemoConfigController" time="0.02">
+        </testcase>
+        <testcase name="screenSectionDelete" classname="TestCSA_CreditMemoConfigController" time="0.85">
+        </testcase>
+        <testcase name="screenSectionDeleteHeadless" classname="TestCSA_CreditMemoConfigController" time="0.74">
+        </testcase>
+        <testcase name="screenSectionEdit" classname="TestCSA_CreditMemoConfigController" time="0.17">
+        </testcase>
+        <testcase name="screenSectionNewFirst" classname="TestCSA_CreditMemoConfigController" time="0.1">
+        </testcase>
+        <testcase name="screenSectionNewHeadless" classname="TestCSA_CreditMemoConfigController" time="0.19">
+        </testcase>
+        <testcase name="screenSectionNewSecond" classname="TestCSA_CreditMemoConfigController" time="0.16">
+        </testcase>
+        <testcase name="screenSectionSaveEdit" classname="TestCSA_CreditMemoConfigController" time="0.46">
+        </testcase>
+        <testcase name="screenSectionSaveNewHeadless" classname="TestCSA_CreditMemoConfigController" time="0.6">
+        </testcase>
+        <testcase name="screenSectionSaveNewNonHeadless" classname="TestCSA_CreditMemoConfigController" time="0.88">
+        </testcase>
+        <testcase name="screenSectionSaveNewWidgetApproval" classname="TestCSA_CreditMemoConfigController" time="0.65">
+        </testcase>
+        <testcase name="screenSectionSaveNewWidgetDebt" classname="TestCSA_CreditMemoConfigController" time="0.55">
+        </testcase>
+        <testcase name="screenSectionSaveNewWidgetGlobal" classname="TestCSA_CreditMemoConfigController" time="0.52">
+        </testcase>
+        <testcase name="screenSectionSaveNewWidgetNarrative" classname="TestCSA_CreditMemoConfigController" time="0.52">
+        </testcase>
+        <testcase name="screenSectionSaveNewWidgetSpreads" classname="TestCSA_CreditMemoConfigController" time="0.83">
+        </testcase>
+        <testcase name="widgetPicklist" classname="TestCSA_CreditMemoConfigController" time="0.14">
+        </testcase>
+        <testcase name="install" classname="TestCSA_CustSuccessAdminDataInstaller" time="0.89">
+        </testcase>
+        <testcase name="uninstall" classname="TestCSA_CustSuccessAdminDataInstaller" time="1.33">
+        </testcase>
+        <testcase name="finish" classname="TestCSA_CustSuccessConfigController" time="0.03">
+        </testcase>
+        <testcase name="installFail" classname="TestCSA_CustSuccessConfigController" time="0.06">
+        </testcase>
+        <testcase name="installSuccess" classname="TestCSA_CustSuccessConfigController" time="0.44">
+        </testcase>
+        <testcase name="isInstalledFalse" classname="TestCSA_CustSuccessConfigController" time="0.02">
+        </testcase>
+        <testcase name="isInstalledTrue" classname="TestCSA_CustSuccessConfigController" time="0.06">
+        </testcase>
+        <testcase name="uninstall" classname="TestCSA_CustSuccessConfigController" time="0.03">
+        </testcase>
+        <testcase name="accounts" classname="TestCSA_LoanAccountRiskRatingController" time="0.08">
+        </testcase>
+        <testcase name="helpTextAccount" classname="TestCSA_LoanAccountRiskRatingController" time="0.04">
+        </testcase>
+        <testcase name="helpTextRiskTemplate" classname="TestCSA_LoanAccountRiskRatingController" time="0.04">
+        </testcase>
+        <testcase name="isHelpTextAccount" classname="TestCSA_LoanAccountRiskRatingController" time="0.03">
+        </testcase>
+        <testcase name="isHelpTextRiskTemplate" classname="TestCSA_LoanAccountRiskRatingController" time="0.03">
+        </testcase>
+        <testcase name="loanRiskRatingSaveError" classname="TestCSA_LoanAccountRiskRatingController" time="0.03">
+        </testcase>
+        <testcase name="loanRiskRatingSaveError1" classname="TestCSA_LoanAccountRiskRatingController" time="0.49">
+        </testcase>
+        <testcase name="loanRiskRatingSaveSuccess" classname="TestCSA_LoanAccountRiskRatingController" time="3.29">
+        </testcase>
+        <testcase name="start" classname="TestCSA_LoanAccountRiskRatingController" time="0.03">
+        </testcase>
+        <testcase name="test1" classname="TestCSA_ObjectHistoryController" time="1.12">
+        </testcase>
+        <testcase name="activate" classname="TestCSA_OverviewConfigAdminController" time="0.15">
+        </testcase>
+        <testcase name="back" classname="TestCSA_OverviewConfigAdminController" time="0.02">
+        </testcase>
+        <testcase name="categories" classname="TestCSA_OverviewConfigAdminController" time="0.02">
+        </testcase>
+        <testcase name="deactivate" classname="TestCSA_OverviewConfigAdminController" time="0.09">
+        </testcase>
+        <testcase name="doDelete" classname="TestCSA_OverviewConfigAdminController" time="0.27">
+        </testcase>
+        <testcase name="initialize" classname="TestCSA_OverviewConfigAdminController" time="0.01">
+        </testcase>
+        <testcase name="productLine" classname="TestCSA_OverviewConfigAdminController" time="0.03">
+        </testcase>
+        <testcase name="reportsList" classname="TestCSA_OverviewConfigAdminController" time="0.16">
+        </testcase>
+        <testcase name="saveEdit" classname="TestCSA_OverviewConfigAdminController" time="0.1">
+        </testcase>
+        <testcase name="SaveNew" classname="TestCSA_OverviewConfigAdminController" time="0.12">
+        </testcase>
+        <testcase name="SaveNewNew" classname="TestCSA_OverviewConfigAdminController" time="0.07">
+        </testcase>
+        <testcase name="stages" classname="TestCSA_OverviewConfigAdminController" time="0.03">
+        </testcase>
+        <testcase name="status" classname="TestCSA_OverviewConfigAdminController" time="0.03">
+        </testcase>
+        <testcase name="viewEdit" classname="TestCSA_OverviewConfigAdminController" time="0.06">
+        </testcase>
+        <testcase name="viewNew" classname="TestCSA_OverviewConfigAdminController" time="0.02">
+        </testcase>
+        <testcase name="finish" classname="TestCSA_OverviewConfigurationController" time="0.03">
+        </testcase>
+        <testcase name="initialize" classname="TestCSA_OverviewConfigurationController" time="0.01">
+        </testcase>
+        <testcase name="installError" classname="TestCSA_OverviewConfigurationController" time="0.36">
+        </testcase>
+        <testcase name="installSuccess" classname="TestCSA_OverviewConfigurationController" time="0.68">
+        </testcase>
+        <testcase name="isInstalledFalse" classname="TestCSA_OverviewConfigurationController" time="0.02">
+        </testcase>
+        <testcase name="isInstalledTrue" classname="TestCSA_OverviewConfigurationController" time="0.07">
+        </testcase>
+        <testcase name="uninstall" classname="TestCSA_OverviewConfigurationController" time="0.09">
+        </testcase>
+        <testcase name="applyBranch" classname="TestCSA_OverviewController" time="7.68">
+        </testcase>
+        <testcase name="applyLoanTeam" classname="TestCSA_OverviewController" time="2.99">
+        </testcase>
+        <testcase name="applyLoanTeamAndBranch" classname="TestCSA_OverviewController" time="2.94">
+        </testcase>
+        <testcase name="branches" classname="TestCSA_OverviewController" time="0.09">
+        </testcase>
+        <testcase name="checkMapSize" classname="TestCSA_OverviewController" time="1.47">
+        </testcase>
+        <testcase name="initialize" classname="TestCSA_OverviewController" time="1.54">
+        </testcase>
+        <testcase name="loanTeamMembers" classname="TestCSA_OverviewController" time="1.63">
+        </testcase>
+        <testcase name="install" classname="TestCSA_OverviewDataInstaller" time="1.03">
+        </testcase>
+        <testcase name="installWithExistingRoutes" classname="TestCSA_OverviewDataInstaller" time="0.77">
+        </testcase>
+        <testcase name="uninstall" classname="TestCSA_OverviewDataInstaller" time="0.67">
+        </testcase>
+        <testcase name="overviewUpdates" classname="TestCSA_OverviewReportUpdateController" time="0.48">
+        </testcase>
+        <testcase name="clear" classname="TestCSA_PSCConfigurationController" time="0.05">
+        </testcase>
+        <testcase name="externalPicklist" classname="TestCSA_PSCConfigurationController" time="0.05">
+        </testcase>
+        <testcase name="initialize" classname="TestCSA_PSCConfigurationController" time="0.01">
+        </testcase>
+        <testcase name="productTypes" classname="TestCSA_PSCConfigurationController" time="0.23">
+        </testcase>
+        <testcase name="saveExternalError" classname="TestCSA_PSCConfigurationController" time="0.12">
+        </testcase>
+        <testcase name="saveNoData" classname="TestCSA_PSCConfigurationController" time="0.49">
+        </testcase>
+        <testcase name="saveNoProductType" classname="TestCSA_PSCConfigurationController" time="0.01">
+        </testcase>
+        <testcase name="saveNoStage" classname="TestCSA_PSCConfigurationController" time="0.01">
+        </testcase>
+        <testcase name="saveNoStatus" classname="TestCSA_PSCConfigurationController" time="0.01">
+        </testcase>
+        <testcase name="saveNoUsage" classname="TestCSA_PSCConfigurationController" time="0.12">
+        </testcase>
+        <testcase name="saveSuccessfulBooked" classname="TestCSA_PSCConfigurationController" time="0.47">
+        </testcase>
+        <testcase name="saveSuccessfulClosed" classname="TestCSA_PSCConfigurationController" time="0.35">
+        </testcase>
+        <testcase name="saveSuccessfulExcluded" classname="TestCSA_PSCConfigurationController" time="0.35">
+        </testcase>
+        <testcase name="saveSuccessfulExternal" classname="TestCSA_PSCConfigurationController" time="0.26">
+        </testcase>
+        <testcase name="saveSuccessfulNoData" classname="TestCSA_PSCConfigurationController" time="0.26">
+        </testcase>
+        <testcase name="saveSuccessfulTransmit" classname="TestCSA_PSCConfigurationController" time="0.33">
+        </testcase>
+        <testcase name="stagePicklist" classname="TestCSA_PSCConfigurationController" time="0.03">
+        </testcase>
+        <testcase name="statusPicklist" classname="TestCSA_PSCConfigurationController" time="0.02">
+        </testcase>
+        <testcase name="finish" classname="TestCSA_PSCMgmtConfigController" time="0.04">
+        </testcase>
+        <testcase name="removeAll" classname="TestCSA_PSCMgmtConfigController" time="0.06">
+        </testcase>
+        <testcase name="callfieldSet" classname="TestCSA_PSCOverviewController" time="0.01">
+        </testcase>
+        <testcase name="NumBooked" classname="TestCSA_PSCOverviewController" time="0.03">
+        </testcase>
+        <testcase name="NumClosed" classname="TestCSA_PSCOverviewController" time="0.01">
+        </testcase>
+        <testcase name="NumExcluded" classname="TestCSA_PSCOverviewController" time="0.01">
+        </testcase>
+        <testcase name="NumProductTypes" classname="TestCSA_PSCOverviewController" time="0.02">
+        </testcase>
+        <testcase name="NumTransmit" classname="TestCSA_PSCOverviewController" time="0.01">
+        </testcase>
+        <testcase name="productTypes" classname="TestCSA_PSCOverviewController" time="0.02">
+        </testcase>
+        <testcase name="finish" classname="TestCSA_RiskRatingConfigController" time="0.04">
+        </testcase>
+        <testcase name="install" classname="TestCSA_RiskRatingConfigController" time="0.24">
+        </testcase>
+        <testcase name="isInstalledFalse" classname="TestCSA_RiskRatingConfigController" time="0.02">
+        </testcase>
+        <testcase name="isInstalledTrue" classname="TestCSA_RiskRatingConfigController" time="0.06">
+        </testcase>
+        <testcase name="uninstall" classname="TestCSA_RiskRatingConfigController" time="0.03">
+        </testcase>
+        <testcase name="testInstallScript" classname="TestCSA_RiskRatingDataInstaller" time="0.7">
+        </testcase>
+        <testcase name="uninstall" classname="TestCSA_RiskRatingDataInstaller" time="1.7">
+        </testcase>
+        <testcase name="testActivation_ActivateTwice_UIRoutesInstalledOnce" classname="TestCSIDepActDocPrep" time="1.59">
+        </testcase>
+        <testcase name="testActivation_onActivateTwice_installProperties" classname="TestCSIDepActDocPrep" time="1.24">
+        </testcase>
+        <testcase name="testActivation_onActivate_installProperties" classname="TestCSIDepActDocPrep" time="0.48">
+        </testcase>
+        <testcase name="testActivation_onDeactivate_UIRoutesRemoved" classname="TestCSIDepActDocPrep" time="1.93">
+        </testcase>
+        <testcase name="testBeanRegistered" classname="TestCSIDepActDocPrep" time="0.02">
+        </testcase>
+        <testcase name="testLicenseKeysConcatenateInOrder" classname="TestCSIDepActDocPrep" time="1.17">
+        </testcase>
+        <testcase name="testLicenseKeysConcatonateInOrderLastKeyMissing" classname="TestCSIDepActDocPrep" time="0.8">
+        </testcase>
+        <testcase name="testPreCommAdjustments" classname="TestCSIDepActDocPrep" time="0.73">
+        </testcase>
+        <testcase name="testPreNavAdjustmentsDocsToCompletion" classname="TestCSIDepActDocPrep" time="0.14">
+        </testcase>
+        <testcase name="testPreNavNoAdjustments" classname="TestCSIDepActDocPrep" time="0.14">
+        </testcase>
+        <testcase name="testPropertyNotPopulatedSendsNull" classname="TestCSIDepActDocPrep" time="0.74">
+        </testcase>
+        <testcase name="testStoreDocuments_hasImplementation" classname="TestCSIDepActDocPrep" time="0.92">
+        </testcase>
+        <testcase name="testValidPropertyExistsSendValue" classname="TestCSIDepActDocPrep" time="0.78">
+        </testcase>
+        <testcase name="testConstructorNoValidLogId_ThrowsApexPageMessage" classname="TestCSIDepActDocPrepCompletionController" time="0.04">
+        </testcase>
+        <testcase name="testConstructorWithValidLog" classname="TestCSIDepActDocPrepCompletionController" time="0.57">
+        </testcase>
+        <testcase name="testLandingHRefMaintenanceSetToDocPrep" classname="TestCSIDepActDocPrepCompletionController" time="0.33">
+        </testcase>
+        <testcase name="testNoAttachmentFoundForTransactionLog" classname="TestCSIDepActDocPrepCompletionController" time="0.13">
+        </testcase>
+        <testcase name="testResubmitDocumentsCreatesSendRequest" classname="TestCSIDepActDocPrepCompletionController" time="0.01">
+        </testcase>
+        <testcase name="testRetryGenDocsCreationReturnsReviewURL" classname="TestCSIDepActDocPrepCompletionController" time="0.3">
+        </testcase>
+        <testcase name="testRetryGenDocsMaintenanceReturnsReviewURL" classname="TestCSIDepActDocPrepCompletionController" time="0.22">
+        </testcase>
+        <testcase name="testTransactionCompletOnConstruction_SetVendorStatusComplete" classname="TestCSIDepActDocPrepCompletionController" time="0.65">
+        </testcase>
+        <testcase name="testUpdateStatusRemoteAction" classname="TestCSIDepActDocPrepCompletionController" time="0.25">
+        </testcase>
+        <testcase name="testUpdateStatusRemoteAction_NoExistingStatus" classname="TestCSIDepActDocPrepCompletionController" time="0.18">
+        </testcase>
+        <testcase name="InvalidTransactionAndSession_VendorStatusNotUpdated" classname="TestCSIDepActDocPrepFilingController" time="1.36">
+        </testcase>
+        <testcase name="InvalidTransaction_VendorStatusNotUpdated" classname="TestCSIDepActDocPrepFilingController" time="0.2">
+        </testcase>
+        <testcase name="NoLogFound_VendorStatusNotUpdated" classname="TestCSIDepActDocPrepFilingController" time="0.2">
+        </testcase>
+        <testcase name="ValidTransactionAndSession_VendorStatusUpdated" classname="TestCSIDepActDocPrepFilingController" time="0.38">
+        </testcase>
+        <testcase name="testAnchorTextAccountNumberExists" classname="TestCSIDepActTransactionLogService" time="0.61">
+        </testcase>
+        <testcase name="testAnchorTextNoAccountNumber" classname="TestCSIDepActTransactionLogService" time="0.39">
+        </testcase>
+        <testcase name="testGetAttachments" classname="TestCSIDepActTransactionLogService" time="0.46">
+        </testcase>
+        <testcase name="testGetTransactionLog" classname="TestCSIDepActTransactionLogService" time="0.11">
+        </testcase>
+        <testcase name="testUpdateVendorStatus" classname="TestCSIDepActTransactionLogService" time="0.25">
+        </testcase>
+        <testcase name="testDataInstallerOnInstall" classname="TestDataInstaller" time="1.61">
+        </testcase>
+        <testcase name="testDataInstallerOnUninstall" classname="TestDataInstaller" time="1.2">
+        </testcase>
+        <testcase name="testDefaultRouteConfiguration" classname="TestDataInstaller" time="0.56">
+        </testcase>
+        <testcase name="testLog" classname="TestDocumentManagerDebugLogProvider" time="0.07">
+        </testcase>
+        <testcase name="ecmOffloadCriteriaFlowLoanImplementsCreate" classname="TestEcmOffloadCriteriaFlowLoan" time="0.17">
+        </testcase>
+        <testcase name="testActivation_onActivate_createSystemProperties" classname="TestECMOffloader" time="0.9">
+        </testcase>
+        <testcase name="testActivation_onActivate_registerTriggerBeans" classname="TestECMOffloader" time="0.75">
+        </testcase>
+        <testcase name="testActivation_onDeactivate_clearNDOCSystemPropertyValues" classname="TestECMOffloader" time="0.86">
+        </testcase>
+        <testcase name="testActivation_onDeactivate_deregisterTriggerBeans" classname="TestECMOffloader" time="0.95">
+        </testcase>
+        <testcase name="testECMTransactionLogTriggerHandler_DoesNotUpdateDocumentVersions_IfNotActivated" classname="TestECMTransactionLogTriggerHandler" time="0.92">
+        </testcase>
+        <testcase name="testECMTransactionLogTriggerHandler_DoesNotUpdateDocumentVersions_IfStatusIncorrect" classname="TestECMTransactionLogTriggerHandler" time="1.29">
+        </testcase>
+        <testcase name="testECMTransactionLogTriggerHandler_updatesDocumentVersions" classname="TestECMTransactionLogTriggerHandler" time="1.21">
+        </testcase>
+        <testcase name="TestEntityDocPrepTriggerHandlerUpdatesEntityCode" classname="TestEntityDocPrepTriggerHandler" time="2.01">
+        </testcase>
+        <testcase name="testActivation_onActivateTwice_installProperties" classname="TestEquifaxCreditActivator" time="1.19">
+        </testcase>
+        <testcase name="testActivation_onActivate_installProperties" classname="TestEquifaxCreditActivator" time="0.7">
+        </testcase>
+        <testcase name="testActivation_onActivate_registersBean" classname="TestEquifaxCreditActivator" time="0.78">
+        </testcase>
+        <testcase name="testPreCommAdjustments_Business" classname="TestEquifaxCreditAppFacade" time="0.62">
+        </testcase>
+        <testcase name="testPreCommAdjustments_Consumer" classname="TestEquifaxCreditAppFacade" time="0.61">
+        </testcase>
+        <testcase name="testPreCommAdjustments_MissingExpectedProperty" classname="TestEquifaxCreditAppFacade" time="0.48">
+        </testcase>
+        <testcase name="testPreCommAdjustments_MissingOrUnknownReportType" classname="TestEquifaxCreditAppFacade" time="0.02">
+        </testcase>
+        <testcase name="testStoreDocuments_hasImplementation" classname="TestEquifaxCreditAppFacade" time="0.54">
+        </testcase>
+        <testcase name="testActivation_onActivateTwice_installConfiguration" classname="TestESignLiveESignature" time="0.8">
+        </testcase>
+        <testcase name="testActivation_onActivateTwice_registerBean" classname="TestESignLiveESignature" time="0.74">
+        </testcase>
+        <testcase name="testActivation_onActivate_installConfiguration" classname="TestESignLiveESignature" time="0.61">
+        </testcase>
+        <testcase name="testActivation_onActivate_registerBean" classname="TestESignLiveESignature" time="0.6">
+        </testcase>
+        <testcase name="testActivation_onDeactivate_deregisterBean" classname="TestESignLiveESignature" time="0.77">
+        </testcase>
+        <testcase name="testEsignatureServiceSetsStatus" classname="TestESignLiveESignature" time="0.6">
+        </testcase>
+        <testcase name="testActivationOnActivateInstallConfiguration" classname="TestIdologyVerification" time="0.74">
+        </testcase>
+        <testcase name="testActivationOnActivateRegisterBean" classname="TestIdologyVerification" time="0.8">
+        </testcase>
+        <testcase name="testActivationOnDeactivateDeregisterBean" classname="TestIdologyVerification" time="0.73">
+        </testcase>
+        <testcase name="testAddPluginConfigs" classname="TestIdologyVerification" time="0.51">
+        </testcase>
+        <testcase name="testDeactivateNullProperties" classname="TestIdologyVerification" time="0.72">
+        </testcase>
+        <testcase name="testUpdateProperty" classname="TestIdologyVerification" time="0.08">
+        </testcase>
+        <testcase name="installed" classname="TestInstallNewConfigValues" time="0.18">
+        </testcase>
+        <testcase name="Noninstalled" classname="TestInstallNewConfigValues" time="0.19">
+        </testcase>
+        <testcase name="testAddChecklist" classname="TestMaintenanceChecklistController" time="0.15">
+        </testcase>
+        <testcase name="testDeteleChecklist" classname="TestMaintenanceChecklistController" time="0.01">
+        </testcase>
+        <testcase name="testGetChecklist" classname="TestMaintenanceChecklistController" time="0.06">
+        </testcase>
+        <testcase name="testGetMappings" classname="TestMaintenanceMappingController" time="0.2">
+        </testcase>
+        <testcase name="testRetrieveTypes" classname="TestMaintenanceMappingController" time="0.5">
+        </testcase>
+        <testcase name="testSaveMappings" classname="TestMaintenanceMappingController" time="0.2">
+        </testcase>
+        <testcase name="testPicklistUpsert" classname="TestMaintenanceTypeController" time="0.21">
+        </testcase>
+        <testcase name="testRetrieveMaintenanceTypes" classname="TestMaintenanceTypeController" time="0.02">
+        </testcase>
+        <testcase name="coverGeneratedCodeCRUDOperations" classname="TestMetadataService" time="0.04">
+        </testcase>
+        <testcase name="coverGeneratedCodeFileBasedOperations1" classname="TestMetadataService" time="0.21">
+        </testcase>
+        <testcase name="coverGeneratedCodeFileBasedOperations2" classname="TestMetadataService" time="0.02">
+        </testcase>
+        <testcase name="coverGeneratedCodeTypes" classname="TestMetadataService" time="0.68">
+        </testcase>
+        <testcase name="testActivation_onDeactivate" classname="TestPrecisionLender" time="1.59">
+        </testcase>
+        <testcase name="testBeforeInsertLoanSeam" classname="TestPrecisionLender" time="2.13">
+        </testcase>
+        <testcase name="testBeforeInsertProductPackageSeam" classname="TestPrecisionLender" time="0.02">
+        </testcase>
+        <testcase name="testGetPluginSendService" classname="TestPrecisionLender" time="0.67">
+        </testcase>
+        <testcase name="testOnActivateInstallConfiguration" classname="TestPrecisionLender" time="0.84">
+        </testcase>
+        <testcase name="testPreSendSeam" classname="TestPrecisionLender" time="0.84">
+        </testcase>
+        <testcase name="testStatusStageUpdate" classname="TestPrecisionLenderLoanTriggerHandler" time="2.07">
+        </testcase>
+        <testcase name="testGetUnencryptedClientID" classname="TestPrecisionLenderPricingController" time="0.65">
+        </testcase>
+        <testcase name="testGetUnencryptedClientIDNoId" classname="TestPrecisionLenderPricingController" time="0.43">
+        </testcase>
+        <testcase name="testInitiatePricingAccount" classname="TestPrecisionLenderPricingController" time="2.22">
+        </testcase>
+        <testcase name="testInitiatePricingOpportunity" classname="TestPrecisionLenderPricingController" time="1.92">
+        </testcase>
+        <testcase name="testRepriceLoan" classname="TestPrecisionLenderRepricingController" time="6.37">
+        </testcase>
+        <testcase name="testCreateExternalAppOnUpdate" classname="TestPrecisionLenderTransTriggerHandler" time="1.85">
+        </testcase>
+        <testcase name="testInitiateRenewModify" classname="TestPrecisionLenderTriggerHandler" time="1.98">
+        </testcase>
+        <testcase name="editPrimaryContact" classname="TestPrimaryIndividualContact" time="1.18">
+        </testcase>
+        <testcase name="noPrimaryContact" classname="TestPrimaryIndividualContact" time="0.37">
+        </testcase>
+        <testcase name="primaryContactExists" classname="TestPrimaryIndividualContact" time="0.29">
+        </testcase>
+        <testcase name="saveNewPrimaryContact" classname="TestPrimaryIndividualContact" time="0.41">
+        </testcase>
+        <testcase name="saveNewPrimaryContactError" classname="TestPrimaryIndividualContact" time="0.27">
+        </testcase>
+        <testcase name="savePrimaryContact" classname="TestPrimaryIndividualContact" time="0.37">
+        </testcase>
+        <testcase name="savePrimaryContactError" classname="TestPrimaryIndividualContact" time="0.25">
+        </testcase>
+        <testcase name="theCancel" classname="TestPrimaryIndividualContact" time="0.33">
+        </testcase>
+        <testcase name="TestConstructor" classname="TestProductClassificationAppController" time="0.91">
+        </testcase>
+        <testcase name="TestConstructor2" classname="TestProductClassificationAppController" time="0.38">
+        </testcase>
+        <testcase name="testInstall" classname="TestTreasuryToolDataInstaller" time="0.12">
+        </testcase>
+        <testcase name="testPostInstallController" classname="TestTreasuryToolDataInstaller" time="2.27">
+        </testcase>
+        <testcase name="testUnInstall" classname="TestTreasuryToolDataInstaller" time="0.15">
+        </testcase>
+        <testcase name="testControllerInitialization" classname="TestTreasuryToolPostInstallController" time="0.05">
+        </testcase>
+        <testcase name="testPerformAlreadyInstalled" classname="TestTreasuryToolPostInstallController" time="2.72">
+        </testcase>
+        <testcase name="testPerformAlreadyUninstalled" classname="TestTreasuryToolPostInstallController" time="1.46">
+        </testcase>
+        <testcase name="testPerformInstall" classname="TestTreasuryToolPostInstallController" time="0.56">
+        </testcase>
+        <testcase name="testPerformUninstalled" classname="TestTreasuryToolPostInstallController" time="1.14">
+        </testcase>
+        <testcase name="testCreateOnUpdate" classname="TestTreasuryUtility" time="2.57">
+        </testcase>
+        <testcase name="testCreateSystemProperty" classname="TestTreasuryUtility" time="0.14">
+        </testcase>
+        <testcase name="testDeleteSystemProperty" classname="TestTreasuryUtility" time="0.29">
+        </testcase>
+        <testcase name="testIsConfigurationToolInstalled" classname="TestTreasuryUtility" time="0.21">
+        </testcase>
+        <testcase name="testIsProduction" classname="TestTreasuryUtility" time="0.23">
+        </testcase>
+        <testcase name="testIsToolDataInstalled" classname="TestTreasuryUtility" time="0.2">
+        </testcase>
+        <testcase name="testNameSpace" classname="TestTreasuryUtility" time="0.08">
+        </testcase>
+        <testcase name="testQueryStringGenerator" classname="TestTreasuryUtility" time="0.02">
+        </testcase>
+        <testcase name="testUpdateSystemProperty" classname="TestTreasuryUtility" time="0.16">
+        </testcase>
+        <testcase name="testRun_adminGroupDoesNotExist_shouldNotInstallRouteAndRouteGroup" classname="TestUIDataProviderAdmin" time="0.06">
+        </testcase>
+        <testcase name="testRun_adminGroupExists_shouldInstallRouteAndRouteGroup" classname="TestUIDataProviderAdmin" time="0.66">
+        </testcase>
+        <testcase name="testCreateRouteStructure_ReturnsMapWithRouteConfig" classname="TestUITemplateGeneratorAppController" time="0.49">
+        </testcase>
+        <testcase name="testDoesDefaultAppFieldExist_ObjectIsDeposit_ReturnsFalse" classname="TestUITemplateGeneratorAppController" time="1.04">
+            <failure message="System.AssertException: Assertion Failed: Expected: true, Actual: false"><![CDATA[Class.TestUITemplateGeneratorAppController.testDoesDefaultAppFieldExist_ObjectIsDeposit_ReturnsFalse: line 78, column 1]]></failure>
+        </testcase>
+        <testcase name="testDoesDefaultAppFieldExist_ObjectIsLoan_ReturnsTrue" classname="TestUITemplateGeneratorAppController" time="0.19">
+        </testcase>
+        <testcase name="testGetAllSObjects_returnsSortedListOfSObjects" classname="TestUITemplateGeneratorAppController" time="10.06">
+        </testcase>
+        <testcase name="testCreateUserSwitcherLog" classname="UserSwitcherControllerTest" time="7.63">
+        </testcase>
+        <testcase name="testGetActiveUsers" classname="UserSwitcherControllerTest" time="1.12">
+            <failure message="System.AssertException: Assertion Failed: The method should return all active users: Expected: 31, Actual: 26"><![CDATA[Class.UserSwitcherControllerTest.testGetActiveUsers: line 63, column 1]]></failure>
+        </testcase>
+        <testcase name="testGetMostRecentUserSwitcherLog" classname="UserSwitcherControllerTest" time="1.89">
+        </testcase>
+        <testcase name="testGetOrgId" classname="UserSwitcherControllerTest" time="0.01">
+        </testcase>
+        <testcase name="testUpdateDemoStatuses" classname="UserSwitcherControllerTest" time="2.11">
+        </testcase>
+        <testcase name="testUpdateUserSwitcherLogToComplete" classname="UserSwitcherControllerTest" time="2.48">
+        </testcase>
+        <testcase name="testUserRetrieval" classname="UserSwitcherControllerTest" time="1.07">
+            <failure message="System.AssertException: Assertion Failed: The method should return all active demo users: Expected: 7, Actual: 6"><![CDATA[Class.UserSwitcherControllerTest.testUserRetrieval: line 31, column 1]]></failure>
+        </testcase>
+    </testsuite>
+</testsuites>

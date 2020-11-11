@@ -1,0 +1,33 @@
+=== Test Reports
+FORMAT  FILE
+──────  ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+txt     /Users/satishchandrashekar/Documents/Projects/AUS_Equifax/.sfdx/tools/testresults/apex/test-result.txt
+txt     /Users/satishchandrashekar/Documents/Projects/AUS_Equifax/.sfdx/tools/testresults/apex/test-run-id.txt
+junit   /Users/satishchandrashekar/Documents/Projects/AUS_Equifax/.sfdx/tools/testresults/apex/test-result-7070l00001lsdct-junit.xml
+json    /Users/satishchandrashekar/Documents/Projects/AUS_Equifax/.sfdx/tools/testresults/apex/test-result-7070l00001lsdct.json
+
+=== Test Results
+TEST NAME                             OUTCOME  MESSAGE  RUNTIME (MS)
+────────────────────────────────────  ───────  ───────  ────────────
+CreditControllerTest.getcontactstest  Pass              3213
+
+=== Test Summary
+NAME                 VALUE
+───────────────────  ────────────────────────────────────────────
+Outcome              Passed
+Tests Ran            1
+Passing              1
+Failing              0
+Skipped              0
+Pass Rate            100%
+Fail Rate            0%
+Test Start Time      Nov 5, 2020 5:42 PM
+Test Execution Time  3213 ms
+Test Total Time      3213 ms
+Command Time         7889 ms
+Hostname             https://bankr-5155--demofcsb.cloudforce.com
+Org Id               00D0l0000001PiREAU
+Username             satishkc@skcncinodemo.com.demofcsb
+Test Run Id          7070l00001lsdct
+User Id              0052w000003B0GMAA0
+

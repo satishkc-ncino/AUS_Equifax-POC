@@ -1,0 +1,63 @@
+43.0 APEX_CODE,DEBUG;APEX_PROFILING,FINEST;CALLOUT,INFO;DB,INFO;NBA,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+12:47:34.77 (77270519)|SOQL_EXECUTE_BEGIN|[56]|Aggregations:0|SELECT Category_Name__c, Key__c, Value__c FROM System_Properties__c WHERE Is_Active__c = TRUE
+12:47:34.77 (101241220)|SOQL_EXECUTE_END|[56]|Rows:1087
+12:47:34.355 (355475585)|SOQL_EXECUTE_BEGIN|[161]|Aggregations:0|SELECT Id, GroupId, UserOrGroupId FROM GroupMember WHERE UserOrGroupId = :tmpVar1
+12:47:34.355 (361831231)|SOQL_EXECUTE_END|[161]|Rows:5
+12:47:34.355 (362580882)|SOQL_EXECUTE_BEGIN|[161]|Aggregations:0|SELECT Id, GroupId, UserOrGroupId FROM GroupMember WHERE UserOrGroupId = :tmpVar1
+12:47:34.355 (365339846)|SOQL_EXECUTE_END|[161]|Rows:5
+12:47:34.355 (365937395)|SOQL_EXECUTE_BEGIN|[73]|Aggregations:0|SELECT Id FROM Group 
+12:47:34.355 (368450733)|SOQL_EXECUTE_END|[73]|Rows:3
+12:47:34.355 (370630151)|SOQL_EXECUTE_BEGIN|[76]|Aggregations:0|SELECT ProcessInstanceId FROM ProcessInstanceWorkItem 
+12:47:34.355 (377653483)|SOQL_EXECUTE_END|[76]|Rows:0
+12:47:34.355 (382183371)|SOQL_EXECUTE_BEGIN|[80]|Aggregations:3|SELECT Id, Status, TargetObjectId, TargetObject.Name, LastModifiedBy.Name, CreatedDate, LastModifiedDate, (SELECT Id, ProcessInstanceId, ActorId, Actor.Name, OriginalActorId, StepStatus, Comments, CreatedDate FROM Steps WHERE StepStatus != 'NoResponse' ORDER BY CreatedDate DESC NULLS FIRST, ID DESC NULLS FIRST), (SELECT Id, ProcessInstanceId, ActorId, Actor.Name, OriginalActorId, CreatedDate FROM Workitems WHERE ActorId = :tmpVar1 ORDER BY CreatedDate DESC NULLS FIRST, ID DESC NULLS FIRST), (SELECT ProcessNodeName FROM Nodes ORDER BY CreatedDate DESC NULLS FIRST, ID DESC NULLS FIRST) FROM ProcessInstance WHERE (TargetObjectId != NULL AND Status = :tmpVar2 AND Id = :tmpVar3) ORDER BY CreatedDate DESC NULLS FIRST, ID DESC NULLS FIRST
+12:47:34.355 (388247420)|SOQL_EXECUTE_END|[80]|Rows:0
+12:47:34.355 (410394659)|SOQL_EXECUTE_BEGIN|[449]|Aggregations:0|SELECT Id, Name, Amount__c, Amount_Unused__c, AmountOutstanding__c, Amount_Available__c, Maximum_Availability__c, Is_Current_Takedown__c, LLC_BI__ParentLoan__c, ParentLoan__r.Name, Description__c, Structure__c, Structure_Hierarchy__c, Highest__c, Product_Package__c FROM Loan__c WHERE (Product_Package__c = :tmpVar1 AND Product_Package__c != NULL) ORDER BY Depth__c ASC NULLS FIRST, Name ASC NULLS FIRST
+12:47:34.355 (424447134)|SOQL_EXECUTE_END|[449]|Rows:0
+12:47:34.444 (444453179)|CUMULATIVE_LIMIT_USAGE
+12:47:34.444 (444453179)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 191 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+12:47:34.444 (444453179)|LIMIT_USAGE_FOR_NS|LLC_BI|
+  Number of SOQL queries: 6 out of 100
+  Number of query rows: 13 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+12:47:34.444 (444453179)|LIMIT_USAGE_FOR_NS|nFORCE|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 1087 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+12:47:34.444 (444453179)|CUMULATIVE_LIMIT_USAGE_END
+
