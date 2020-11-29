@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2020-11-05T17:42:13+11:00" hostname="https://bankr-5155--demofcsb.cloudforce.com" tests="1" failures="0"  errors="0"  time="3.21">
+        <properties>
+            <property name="outcome" value="Passed"/>
+            <property name="testsRan" value="1"/>
+            <property name="passing" value="1"/>
+            <property name="failing" value="0"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="100%"/>
+            <property name="failRate" value="0%"/>
+            <property name="testStartTime" value="Nov 5, 2020 5:42 PM"/>
+            <property name="testExecutionTime" value="3.21 s"/>
+            <property name="testTotalTime" value="3.21 s"/>
+            <property name="commandTime" value="7.89 s"/>
+            <property name="hostname" value="https://bankr-5155--demofcsb.cloudforce.com"/>
+            <property name="orgId" value="00D0l0000001PiREAU"/>
+            <property name="username" value="satishkc@skcncinodemo.com.demofcsb"/>
+            <property name="testRunId" value="7070l00001lsdct"/>
+            <property name="userId" value="0052w000003B0GMAA0"/>
+        </properties>
+        <testcase name="getcontactstest" classname="CreditControllerTest" time="3.21">
+        </testcase>
+    </testsuite>
+</testsuites>

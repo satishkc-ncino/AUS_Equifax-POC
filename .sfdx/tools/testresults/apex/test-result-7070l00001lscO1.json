@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 1,
+        "passing": 1,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Nov 5, 2020 5:00 PM",
+        "testExecutionTime": "7232 ms",
+        "testTotalTime": "7232 ms",
+        "commandTime": "12357 ms",
+        "hostname": "https://bankr-5155--demofcsb.cloudforce.com",
+        "orgId": "00D0l0000001PiREAU",
+        "username": "satishkc@skcncinodemo.com.demofcsb",
+        "testRunId": "7070l00001lscO1",
+        "userId": "0052w000003B0GMAA0"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v50.0/tooling/sobjects/ApexTestResult/07M0l000006SDTaEAO"
+            },
+            "Id": "07M0l000006SDTaEAO",
+            "QueueItemId": "7090l000000oi0OAAQ",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7070l00001lscO1AAI",
+            "MethodName": "getcontactstest",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v50.0/tooling/sobjects/ApexClass/01p0l000002KJBgAAO"
+                },
+                "Id": "01p0l000002KJBgAAO",
+                "Name": "CreditControllerTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 7232,
+            "FullName": "CreditControllerTest.getcontactstest"
+        }
+    ]
+}
